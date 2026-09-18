@@ -39,7 +39,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/JSMICRO/8205A.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -223,7 +223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/Texas_Instruments/LM74610QDGKRQ1.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -452,7 +452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/Analog_Devices/max17320.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1019,7 +1019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/Polytronics/CLM1612-12A.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
