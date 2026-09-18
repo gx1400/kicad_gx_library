@@ -1,4 +1,4 @@
-(footprint "MCCQ-122"
+(footprint "Fuse_MCCQ-122"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6e64da84-c7d6-4219-9aa4-a563c35d982c")
+		(uuid "f8df4cce-4775-44de-8d08-f7c63d97563f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bbf44542-8c86-4c56-b93c-011e97f385e3")
+		(uuid "a7b9aea3-5605-4768-849b-69a81e46006f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0118f4a5-13b9-4ae5-9763-f50052f705f6")
+		(uuid "9c60af6e-4e7d-4622-b42e-e6cb52c2fc43")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a3ff1a58-9c31-45d1-b395-180737e6e6de")
+		(uuid "ffdf244a-9245-4bc0-a0b2-46516f2ff7a5")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "13569953-6575-4965-b5b0-124ba92965c8")
+		(uuid "544113a2-b5cf-46f1-b867-139e922547ad")
 	)
 	(fp_rect
 		(start -7.5 -2.5)
@@ -75,13 +75,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d9e5054d-071b-4f0f-b6c3-a44df99c5371")
+		(uuid "540488b7-e826-489b-a16f-06c056b06396")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "da1cacb7-18d3-450a-8023-5115b528ac41")
+		(uuid "cdf3db21-e887-4dd3-a0b1-0ea14ef18ff1")
 		(effects
 			(font
 				(size 1 1)
@@ -96,7 +96,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "d404b4b5-dde5-4f29-bb0c-abc4f5d14e2b")
+		(uuid "c339f623-a01b-41fc-99a3-5abeea470ba4")
 	)
 	(pad "1" thru_hole roundrect
 		(at -2.15 0)
@@ -105,7 +105,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "51d82fa2-839d-4830-bd8c-3810ea270de6")
+		(uuid "acb4ef30-5327-4e49-b256-ff0337987cb6")
 	)
 	(pad "2" thru_hole roundrect
 		(at 2.15 0)
@@ -114,7 +114,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "c76f9361-c44f-4111-a0c2-d0ac3b6a7c83")
+		(uuid "bbb3ac45-4cfb-43a1-9729-a307803e541f")
 	)
 	(pad "2" thru_hole roundrect
 		(at 5.85 0)
@@ -123,7 +123,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "c0e94566-5e5b-438e-8b63-49038f2c80f0")
+		(uuid "6fa53760-f4f8-4139-8fb8-b9b670a93754")
 	)
 	(embedded_fonts no)
 )
