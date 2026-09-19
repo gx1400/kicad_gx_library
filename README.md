@@ -33,13 +33,22 @@ one shot), so pulling in new LCSC/EasyEDA parts needs no extra staging or path-f
 ## Adding a new part from LCSC/EasyEDA
 
 ```bash
+./add_part.sh <LCSC_ID> [LCSC_ID ...]
+```
+
+Wraps the `easyeda2kicad` call below, tagging every generated symbol with `Source` and
+`Imported` (today's date) custom properties for traceability, on top of the `LCSC Part`
+property `easyeda2kicad` already sets automatically:
+
+```bash
 easyeda2kicad --full --lcsc_id=<LCSC_ID> --project-relative \
+  --custom-field "Source:easyeda2kicad" "Imported:<YYYY-MM-DD>" \
   --output=<path-to-this-repo>/GX
 ```
 
-This appends the new symbol into `GX.kicad_sym` and adds the footprint/3D model into
-`GX.pretty/` / `GX.3dshapes/` — safe to re-run against the same `GX` base for every new
-part.
+Either way, this appends the new symbol into `GX.kicad_sym` and adds the footprint/3D
+model into `GX.pretty/` / `GX.3dshapes/` — safe to re-run against the same `GX` base for
+every new part.
 
 ## Datasheets
 
