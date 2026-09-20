@@ -714,7 +714,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at -5.08 -2.54 0)
 				(length 3.81)
 				(hide yes)
