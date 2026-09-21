@@ -150,7 +150,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "472192001_1_1"
+			(pin bidirectional line
 				(at -10.16 8.89 0)
 				(length 2.54)
 				(name "DAT2"
@@ -168,7 +170,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "CD/DAT3"
@@ -186,7 +188,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "CMD"
@@ -204,7 +206,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "VDD"
@@ -222,7 +224,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input clock
 				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "CLK"
@@ -240,7 +242,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "VSS"
@@ -258,7 +260,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "DAT0"
@@ -276,7 +278,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -10.16 -8.89 0)
 				(length 2.54)
 				(name "DAT1"
@@ -294,10 +296,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 -3.81 180)
 				(length 5.08)
-				(name "9"
+				(name "SHLD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -312,10 +314,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 -1.27 180)
 				(length 5.08)
-				(name "10"
+				(name "SHLD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -330,10 +332,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 1.27 180)
 				(length 5.08)
-				(name "11"
+				(name "SHLD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -348,10 +350,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 3.81 180)
 				(length 5.08)
-				(name "12"
+				(name "SHLD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -590,7 +592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Switching-Diode_ON-Semicon_BAS116LT1G_ON-Semicon-ON-BAS116LT1G_C232527.html"
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/onsemi/BAS116LT1G.pdf"
 			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -811,7 +813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C964787.pdf"
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/MYOUNG/BS-08-B2AA020-R.pdf"
 			(at 0 -10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -833,7 +835,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MYOUNG(美阳)"
+		(property "Manf" "MYOUNG(美阳)"
 			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -855,7 +857,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C964787"
+		(property "LCSC Part #" "C964787"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -979,6 +981,303 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CAT24C32YI-GT3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAT24C32YI-GT3"
+			(at 0 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_gx_library:TSSOP-8_L4.4-W3.0-P0.65-LS6.4-BL"
+			(at 0 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/onsemi/CAT24C32YI-GT3.pdf"
+			(at 0 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi(安森美)"
+			(at 0 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CAT24C32YI-GT3"
+			(at 0 -19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C94264"
+			(at 0 -21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Source" "easyeda2kicad"
+			(at 0 -26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Imported" "2026-09-20"
+			(at 0 -29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "EEPROM"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CAT24C32YI-GT3_0_1"
+			(rectangle
+				(start -7.62 6.35)
+				(end 7.62 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -6.98 5.71)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CAT24C32YI-GT3_1_1"
+			(pin input line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "WP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2296,7 +2595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_Texas-Instruments-Texas-Instruments-TPS2121RUXR_C485916.html"
+		(property "Datasheet" "${KIPRJMOD}/libs/kicad_gx_library/datasheets/Texas_Instruments/TPS2121RUXR.pdf"
 			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
